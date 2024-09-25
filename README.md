@@ -6,10 +6,10 @@ It searches for all the Github users using the text inputted by the user in the 
 
 ## Archiecture Overall
 
-![1727230627606](image/README/1727230627606.png)
+![1727238542007](image/README/1727238542007.png)
 In this project, we will create a Vue App and use GitHub API to search information then display it
 
-![1727230641750](image/README/1727230641750.png)
+![1727238566587](image/README/1727238566587.gif)
 We will use following endpoints from GitHub API to make requests
 
 ```bash
@@ -316,7 +316,7 @@ import Navbar from "./layout/Navbar.vue";
 
 You can see the application now has a search input then it will display the search result for us.
 
-![1727236550830](image/README/1727236550830.png)
+![1727238610842](image/README/1727238610842.gif)
 
 Now, we will add a Clear button to clear all search results
 
@@ -473,7 +473,7 @@ import { RouterLink } from "vue-router";
 
 Now, the application has multiple pages
 
-![1727237670506](image/README/1727237670506.png)
+![1727238637230](image/README/1727238637230.gif)
 
 ## Create `UserPage` component to display all user information
 
@@ -658,7 +658,7 @@ onMounted(() => {
 
 Let's see the result
 
-![1727238104417](image/README/1727238104417.png)
+![1727238667555](image/README/1727238667555.gif)
 
 Below is the final folder application structure
 
