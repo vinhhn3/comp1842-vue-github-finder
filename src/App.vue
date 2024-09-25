@@ -1,3 +1,10 @@
+<script setup lang="ts">
+import Navbar from "./layout/Navbar.vue";
+</script>
+
 <template>
-  <h1>Hello World</h1>
+  <Navbar />
+  <div class="container">
+    <RouterView />
+  </div>
 </template>
